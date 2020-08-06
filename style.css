@@ -1,0 +1,42 @@
+* {
+    border: 1px dashed black;
+}
+
+html {
+    background-color: teal;
+}
+
+body {
+    margin: 20px;
+    padding: 20px;
+    background-color: thistle;
+}
+
+div {
+    padding: 20px;
+}
+
+span {
+    border-style: dotted;
+    background-color: brown;
+    margin: 3px;
+    padding: 5px;
+}
+
+#first {
+    background-color: whitesmoke;
+    width: 150px;
+    height: 150px;
+}
+
+#second {
+    background-color: blanchedalmond;
+    width: 100px;
+    height: 100px;
+}
+
+#third {
+    background-color: wheat;
+    width: 50px;
+    height: 50px;
+}

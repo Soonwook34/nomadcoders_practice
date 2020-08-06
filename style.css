@@ -1,42 +1,24 @@
-* {
-    border: 1px dashed black;
-}
-
-html {
-    background-color: teal;
-}
-
 body {
+    height: 100vh;
     margin: 20px;
-    padding: 20px;
-    background-color: thistle;
+    display: flex;
+    justify-content: space-evenly; /*main axis (default : row)*/
+    /*flex-direction: column;*/
+    align-items: center; /*cross axis (default : column)*/
+    flex-wrap: wrap;
 }
 
 div {
-    padding: 20px;
-}
-
-span {
-    border-style: dotted;
-    background-color: brown;
-    margin: 3px;
-    padding: 5px;
-}
-
-#first {
-    background-color: whitesmoke;
-    width: 150px;
-    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: teal;
+    font-size: 50px;
+    color: lightcoral;
 }
 
 #second {
-    background-color: blanchedalmond;
-    width: 100px;
-    height: 100px;
-}
-
-#third {
     background-color: wheat;
-    width: 50px;
-    height: 50px;
 }

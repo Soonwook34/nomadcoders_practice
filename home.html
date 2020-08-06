@@ -3,29 +3,31 @@
 
 <head>
     <title>Home - My First Website</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="This is my website." />
-    <link rel="shortcut icon" sizes="16x16 32x32 64x64" href="https://nomadcoders.co/m.png" />
+    <link href="style.css" rel="stylesheet" />
+    <style>
+        h1 {
+            color: yellowgreen;
+            font-style: italic;
+            font-size: 50px;
+        }
+
+        address {
+            text-align: center;
+            color: tomato;
+        }
+    </style>
 </head>
 
 <body>
     <form>
         <header>
-            <h1>Test Times</h1>
+            <h1>This is Header</h1>
         </header>
         <main>
-            <div>
-                <label for="website1">Website</label>
-                <input id="website1" required placeholder="Name" type="date" />
-            </div>
-            <div>
-                <label for="website2">Website</label>
-                <input id="website2" required placeholder="Name" type="date" />
-            </div>
-            <input type="submit" value=" Create Account" />
+            <address>address is here 123</address>
         </main>
         <footer>
-            &copy; 2020 N.C
+            &copy; 2020 footer
         </footer>
     </form>
 </body>

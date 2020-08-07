@@ -10,9 +10,10 @@ div {
     background-color: teal;
     color: lightcoral;
 }
-
+#green {
+    position: fixed; /*초기에 위치한 자리에 fix, 가장 상위 레이어에 위치*/
+    opacity: 0.2;
+}
 #different {
-    position: fixed; /*초기에 위치한 자리에 fix*/
     background-color: wheat;
-    width: 350px;
 }

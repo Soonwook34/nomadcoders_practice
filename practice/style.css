@@ -3,6 +3,10 @@ body {
     margin: 50px;
 }
 
+div {
+    margin: 10px 0px;
+}
+
 span {
     background-color: yellowgreen;
     padding: 5px;
@@ -10,15 +14,33 @@ span {
 }
 
 p span {
+    /* child element */
     color: white;
 }
 
 div > span {
-    /* direct children */
+    /* direct child */
     text-decoration: underline;
 }
 
+p ~ span {
+    /* just next element */
+    color: violet;
+}
+
 p + span {
-    /* next element */
+    /* immediately next element */
     color: tomato;
+}
+
+input {
+    border: 1px solid wheat;
+}
+
+input:required {
+    border-color: tomato;
+}
+
+input[placeholder~="name"] {
+    background-color: thistle;
 }

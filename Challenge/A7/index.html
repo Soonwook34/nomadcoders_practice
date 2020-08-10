@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <form class="js-taskForm">
+        <label for="addTask">TODO List</label>
+        <input required type="text" placeholder="Add Task and Press Enter." id="addTask" />
+    </form>
+    <div id="baseDiv">
+        <div id="pendDiv">
+            <h2>Pending</h2>
+            <ul class="js-pendingList"></ul>
+        </div>
+        <div id="finDiv">
+            <h2>Finished</h2>
+            <ul class="js-finishedList"></ul>
+        </div>
+    </div>
+    <footer>
+        CopyRight @ 2020 운수눅
+    </footer>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

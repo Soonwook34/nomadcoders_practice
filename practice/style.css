@@ -1,103 +1,28 @@
-:root {
-    --main-color: #5f5d4d;
-    --main-border: 1px solid var(--main-color);
-}
-
-body {
-    height: 1000vh;
-    margin: 50px;
-}
-
-div {
-    margin: 10px 0px;
-}
-
-span {
-    background-color: yellowgreen;
-    padding: 5px;
-    border-radius: 10px;
-}
-
-p span {
-    /* child element */
-    color: white;
-}
-
-div > span {
-    /* direct child */
-    text-decoration: underline;
-}
-
-p ~ span {
-    /* just next element */
-    color: violet;
-}
-
-p + span {
-    /* immediately next element */
-    color: tomato;
-}
-
-input {
-    border: 1px solid wheat;
-}
-
-input:required {
-    border-color: tomato;
-}
-
-input[placeholder~="name"] {
-    background-color: thistle;
-}
-
-button:active {
+a {
+    color: wheat;
     background-color: tomato;
-}
-
-button:hover {
-    background-color: teal;
-    border-radius: 10px;
-}
-
-button:focus {
-    background-color: thistle;
-}
-
-a:visited {
-    color: brown;
+    text-decoration: none;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: 50px;
+    transition: all 0.3s cubic-bezier(0.755, 0.055, 0.185, 0.855);
 }
 
 a:hover {
-    color: turquoise;
+    border-radius: 25px;
+    color: tomato;
+    background-color: wheat;
 }
 
-form {
-    border: 1px solid salmon;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
+img {
+    width: 15%;
+    height: 15%;
+    margin: 30px 0px;
+    border: 10px solid black;
+    border-radius: 50%;
+    transform: rotateY(30deg) translateX(150px);
+    transition: transform 1s ease-in-out;
 }
-
-form:focus-within {
-    border-color: seagreen;
-    border-width: 3px;
-}
-
-form:hover input:focus {
-    background-color: tomato;
-}
-
-input::placeholder {
-    color: yellowgreen;
-}
-
-p::selection {
-    background-color: yellow;
-    color: brown;
-}
-
-p::first-letter {
-    font-size: 50px;
-    color: var(--main-color);
-    border: var(--main-border);
+img:hover {
+    transform: rotateZ(180deg);
 }

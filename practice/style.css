@@ -1,3 +1,8 @@
+:root {
+    --main-color: #5f5d4d;
+    --main-border: 1px solid var(--main-color);
+}
+
 body {
     height: 1000vh;
     margin: 50px;
@@ -93,5 +98,6 @@ p::selection {
 
 p::first-letter {
     font-size: 50px;
-    color: teal;
+    color: var(--main-color);
+    border: var(--main-border);
 }

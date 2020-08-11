@@ -81,3 +81,17 @@ form:focus-within {
 form:hover input:focus {
     background-color: tomato;
 }
+
+input::placeholder {
+    color: yellowgreen;
+}
+
+p::selection {
+    background-color: yellow;
+    color: brown;
+}
+
+p::first-letter {
+    font-size: 50px;
+    color: teal;
+}

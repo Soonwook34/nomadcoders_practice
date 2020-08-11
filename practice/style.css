@@ -44,3 +44,40 @@ input:required {
 input[placeholder~="name"] {
     background-color: thistle;
 }
+
+button:active {
+    background-color: tomato;
+}
+
+button:hover {
+    background-color: teal;
+    border-radius: 10px;
+}
+
+button:focus {
+    background-color: thistle;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: turquoise;
+}
+
+form {
+    border: 1px solid salmon;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+form:focus-within {
+    border-color: seagreen;
+    border-width: 3px;
+}
+
+form:hover input:focus {
+    background-color: tomato;
+}

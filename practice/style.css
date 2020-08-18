@@ -85,8 +85,8 @@ span {
     }
 }
 
-@media print {
+/* @media print {
     body {
         background-color: tomato;
     }
-}
+} */

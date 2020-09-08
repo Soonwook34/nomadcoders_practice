@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body>
+    <h1>Random Number Game</h1>
+    <h2>
+        Generate a number between 0 and
+        <span id="jsMaxNum">100</span>
+    </h2>
+    <div>
+        <input type="range" id="jsRange" min="0" max="200" value="100" step="5" list="marks" />
+        <datalist id="marks">
+            <option value="0" />
+            <option value="50" />
+            <option value="100" />
+            <option value="150" />
+            <option value="200" />
+        </datalist>
+    </div>
+    <h4>
+        Guess the number:
+        <input type="number" id="jsGuessNum" min="0" max="100" />
+        <button id="jsPlay">Play!</button>
+    </h4>
+    <p id="jsResultMsg" hidden>
+        You chose: <span id="jsUserNum">00</span>, the machine chose:
+        <span id="jsMachineNum">00</span>.<br />You <span id="jsResult"></span>!
+    </p>
+    <p id="jsErrorMsg" hidden>⚠️ Choose the RIGHT Number! ⚠️</p>
+    <script src="src/index.js"></script>
+</body>
+
+</html>

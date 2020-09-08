@@ -1,0 +1,143 @@
+body {
+    height: 100vh;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    background: #f6e58d9a;
+    margin: 10px 0px;
+    font-family: "Jua", sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    background-color: #323463;
+    width: 95vh;
+    border-radius: 20px 20px 0px 0px;
+    border-bottom: 10px solid#16172b;
+}
+
+label {
+    font-size: 30px;
+    font-weight: bold;
+    color: #dff9fb;
+    margin: 0px 0px 0px 45px;
+    text-decoration: underline;
+}
+
+input {
+    font-size: 15px;
+    height: 75%;
+    width: 60%;
+    border-radius: 10px;
+    border: 3px solid #130f40;
+    margin: 2px 45px 0px 0px;
+    padding: 0px 10px;
+    font-family: "Jua", sans-serif;
+}
+
+#baseDiv {
+    width: 95vh;
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    background-color: #f9ca24;
+    border-radius: 0px 0px 20px 20px;
+    border-bottom: 5px solid #705b10;
+}
+
+#pendDiv {
+    display: flex;
+    width: 40%;
+    background-color: #96d16e;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 10px solid #587a41;
+}
+
+#finDiv {
+    display: flex;
+    width: 40%;
+    background-color: #63c2d3;
+    justify-content: top;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 10px solid #285057;
+}
+
+h2 {
+    font-size: 30px;
+    text-decoration: underline;
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+#pendDiv h2 {
+    color: #0d470d;
+    background-color: #6ab04c;
+    border-bottom: 5px solid #4e8537;
+}
+
+#finDiv h2 {
+    color: #0f3538;
+    background-color: #1b909b;
+    border-bottom: 5px solid #18676e;
+}
+
+ul {
+    padding-left: 0px;
+    width: 90%;
+}
+
+ul li {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0px;
+}
+
+li span {
+    font-size: 18px;
+    width: 85%;
+}
+
+li button {
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+
+footer {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    margin: 20px 20px;
+    font-weight: lighter;
+    animation: anime 1.5s infinite;
+}
+
+@keyframes anime {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

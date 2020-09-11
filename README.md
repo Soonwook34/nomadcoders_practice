@@ -8,3 +8,6 @@ js/chrome-app
 
 js/paint-board
 : Painting Board made with VanillaJS
+
+python/web-scraper
+: Web Scraper made with Python(request, bs4, flask, csv)
